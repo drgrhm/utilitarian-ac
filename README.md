@@ -1,10 +1,12 @@
 # utilitarian-configuration
 
+Code to reproduce experiments from the paper *Utilitarian Algorithm Configuration* (see paper [here](https://www.cs.ubc.ca/~drgraham/datasets.html)).
+
 Download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html).
 
 Unpack it into a folder called icar/.
 
-Setup directories: 
+Set up directories: 
 ```
 mkdir dat img
 ```
