@@ -21,8 +21,8 @@ def plot_runtime_cdfs(env, save_path, x_max=None):
     if x_max:
         plt.xlim(0, x_max)
     plt.ylim(-.005, 1.005)
-    plt.xlabel("t")
-    plt.ylabel("Pr(runtime <= t)")
+    plt.xlabel(r"$t$")
+    plt.ylabel(r"$\Pr(runtime \leq t)$")
     cbar = plt.colorbar(matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap), orientation='vertical', label='(empirical) average runtime')
     plt.savefig(save_path, bbox_inches='tight')
     plt.clf()
@@ -43,8 +43,8 @@ def plot_utility_cdfs(env, u, save_path):
     cbar = plt.colorbar(matplotlib.cm.ScalarMappable(norm=norm, cmap=cmap), orientation='vertical', label='(empirical) average utility')
     plt.xlim(-.005, 1.005)
     plt.ylim(-.005, 1.005)
-    plt.xlabel("x")
-    plt.ylabel("Pr(utility <= x)")
+    plt.xlabel(r"$x$")
+    plt.ylabel(r"$\Pr(utility \leq x)$")
     plt.savefig(save_path, bbox_inches='tight')
     plt.clf()
 
