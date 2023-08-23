@@ -9,9 +9,15 @@ Setup directories:
 mkdir dat img
 ```
 
-## Run Example: 
+## Run Experiments: 
 
-Run the Naive algorithm with a Pareto(10, 1) utility function epsilon = .2, delta=.1 and captime = 100: 
+Runtime of Naive algorithm for different captimes (Figure 1)
 ```
-python naive.py minisat u_pareto-10-1 .2 .1 100
+python naive_captime_experiement.py cplex_rcw
+```
+
+
+Compare total time of Naive algorithm and UP... (Figures 2, 3)
+```
+python naive_captime_experiement.py cplex_rcw
 ```
