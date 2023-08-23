@@ -2,7 +2,12 @@
 
 Code to reproduce experiments from the paper [Utilitarian Algorithm Configuration](https://www.cs.ubc.ca/~drgraham/datasets.html).
 
-Download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html) and unpack it into a folder called `icar/`.
+Download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html) and unpack it into a folder `icar/`:
+```
+mkdir icar
+wget https://www.cs.ubc.ca/~drgraham/datasets/dataset_icar.zip
+unzip dataset_icar.zip -d icar/
+```
 
 Set up directories: 
 ```
