@@ -1,25 +1,21 @@
 # utilitarian-configuration
 
-Code to reproduce experiments from the paper *Utilitarian Algorithm Configuration* (see paper [here](https://www.cs.ubc.ca/~drgraham/datasets.html)).
+To reproduce experiments from the paper [Utilitarian Algorithm Configuration](https://www.cs.ubc.ca/~drgraham/datasets.html).
 
-Download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html).
-
-Unpack it into a folder called icar/.
+Download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html) and unpack it into a folder called `icar/`.
 
 Set up directories: 
 ```
 mkdir dat img
 ```
 
-## Run Experiments: 
-
-Runtime of Naive algorithm for different captimes (Figure 1)
+Run the Naive algorithm for different captimes and epsilons (Figure 1).
 ```
-python naive_captime_experiement.py cplex_rcw
+python naive_captime_experiement.py [minisat | cplex_rcw | cplex_region]
 ```
 
 
-Compare total time of Naive algorithm and UP... (Figures 2, 3)
+Compare total runtime of the Naive algorithm and UP for different epsilons (Figures 2, 3).
 ```
-python naive_captime_experiement.py cplex_rcw
+python anytime_speedup_experiement.py [minisat | cplex_rcw | cplex_region]
 ```
