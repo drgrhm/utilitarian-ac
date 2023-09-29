@@ -72,7 +72,6 @@ def up(env, u, delta, k0=1, epsilon_min=0):
 
         for i in I.keys():
             # if (2 * math.sqrt(2) - u(k[i])) * alpha[i] <= u(k[i]) * (1 - F_hat[i]):
-            # if (2 - u(k[i])) * alpha[i] <= u(k[i]) * (1 - F_hat[i]):
             if 2 * alpha[i] <= u(k[i]) * (1 - F_hat[i]):
                 k[i] = 2 * k[i]
                 new_k[i] = True
