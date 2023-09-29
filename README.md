@@ -16,13 +16,13 @@ mkdir dat img
 
 Run the Naive algorithm for different captimes and epsilons (Figure 1):
 ```
-python naive_captime_experiement.py [minisat | cplex_rcw | cplex_region]
+python naive_captime_experiment.py [minisat | cplex_rcw | cplex_region]
 ```
 
 
 Compare total runtime of the Naive algorithm and UP for different epsilons (Figures 2, 3):
 ```
-python anytime_speedup_experiement.py [minisat | cplex_rcw | cplex_region]
+python anytime_speedup_experiment.py [minisat | cplex_rcw | cplex_region]
 ```
 
 
