@@ -26,7 +26,7 @@ python anytime_speedup_experiement.py [minisat | cplex_rcw | cplex_region]
 ```
 
 
-Plot empirical CDFs of the dataset and utility functions:
+Plot empirical CDFs of the dataset and utility functions (not included in paper):
 ```
 python data_explore.py [minisat | cplex_rcw | cplex_region]
 ```
