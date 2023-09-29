@@ -16,7 +16,7 @@ parser.add_argument('-plot', action='store_true', help="only plot, no running")
 args = parser.parse_args()
 
 if args.dataset == "minisat":
-    env = LBEnvironment('icar/dataset_icar/measurements.dump', 900)
+    env = LBEnvironment('icar/dataset_icar/minisat_cnfuzzdd/measurements.dump', 900)
 elif args.dataset == "cplex_rcw":
     env = Environment('icar/dataset_icar/cplex_rcw/cplex_rcw_rt_seed{}.npy'.format(520), 10000)
 elif args.dataset == "cplex_region":
