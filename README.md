@@ -1,4 +1,4 @@
-# utilitarian-algorithm-configuration
+# utilitarian-ac
 
 Code to reproduce experiments from the paper [Utilitarian Algorithm Configuration](https://www.cs.ubc.ca/~drgraham/datasets.html).
 
