@@ -1,6 +1,6 @@
 # utilitarian-ac
 
-Code to reproduce experiments from the paper [Utilitarian Algorithm Configuration](https://www.cs.ubc.ca/~drgraham/datasets.html).
+Code to reproduce experiments from the paper [Utilitarian Algorithm Configuration](https://arxiv.org/abs/2310.20401).
 
 Execute the following to download the data from [here](https://www.cs.ubc.ca/~drgraham/datasets.html) and unpack it into a folder named `icar/`:
 ```
