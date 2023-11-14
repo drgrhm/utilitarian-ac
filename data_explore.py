@@ -31,7 +31,7 @@ def plot_runtime_cdfs(env, save_path, x_max=None):
 def plot_utility_cdfs(env, u, save_path):
     utils = []
     means = []
-    vect_u = np.vectorize(u)
+    vect_u = np.vectorize(u, otypes=[np.float])
     for i in range(env.get_num_configs()):
         us = vect_u(env._runtimes[i, :])
         utils.append(us)
